@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cd themes/suka && yarn install
-      - run: cd../../ &&  yarn install
+      - run: cd ../../ &&  yarn install
       - run: yarn build
       - run: yarn deploy
       # - run: yarn start
