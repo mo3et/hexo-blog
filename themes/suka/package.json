@@ -4,7 +4,7 @@
   "description": "Modern, powerful and simple theme for Hexo",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setup": "npm cache clean && npm install",
+    "setup": "yarn cache clean && yarn install",
     "lint": "bash lint.sh"
   },
   "repository": {
