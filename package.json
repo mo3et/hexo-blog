@@ -21,6 +21,9 @@
     "hexo-renderer-marked": "^4.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-theme-landscape": "^0.0.3",
+    "node-prismjs": "0.1.2",
+    "prismjs": "1.17.1",
+    "qr-image": "3.2.0"
   }
 }

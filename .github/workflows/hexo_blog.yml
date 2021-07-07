@@ -21,8 +21,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: yarn install
-      # - run: yarn build
-      - run: yarn deploy -p
+      - run: yarn build
+      - run: yarn deploy
       # - run: yarn start
       - run: curl -sf https://cli.caitouyun.com/install.sh | sh
       - run: caitou deploy --git
