@@ -1,0 +1,11 @@
+# site: blogs
+site: monet
+# public: public
+# production_branch: live
+public: public
+force_ssl: true
+# rewrites:
+#   - source: /api/*
+#     destination: https://api.westack.live/$1
+# domains:
+#   china: weekly.westack.live
