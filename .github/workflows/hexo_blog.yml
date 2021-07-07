@@ -23,7 +23,7 @@ jobs:
       - run: yarn global add hexo-cli && yarn install
       - run: cd themes/suka && yarn install
       # - run: yarn build
-      - run: hexo clean && hexo deploy
+      - run: hexo deploy
       # - run: yarn start
       - run: curl -sf https://cli.caitouyun.com/install.sh | sh
       - run: caitou deploy --git
