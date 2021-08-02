@@ -22,9 +22,8 @@ jobs:
       - uses: actions/checkout@v2.3.4
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive) 
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-      - run: yarn global add hexo-cli && yarn install
-      - run: cd themes/suka && yarn install
+      - run: yarn global add hexo-cli && yarn
+      - run: cd themes/suka && yarn
       # - run: yarn build
       - run: yarn clean && yarn hexo deploy
       # - run: yarn start
